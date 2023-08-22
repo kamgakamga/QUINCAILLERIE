@@ -1,5 +1,7 @@
 package com.smartcompany.billingservice.models;
 
+import lombok.Data;
+
 /**
  * Copyright (c) 2023, Iforce5, All Right Reserved.
  * https://iforce5.com
@@ -9,5 +11,11 @@ package com.smartcompany.billingservice.models;
  * Project : @project billing-service
  * Package : @package com.smartcompany.billingservice.models
  */
+@Data
 public class Costomer {
+	private Long id;
+	private String nom;
+	private String prenom;
+	private String telephone;
+	private String email;
 }
